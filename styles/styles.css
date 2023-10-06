@@ -1,0 +1,836 @@
+@font-face {
+  font-family: "Zoho_Puvi_Thin";
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Thin.eot");
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Thin.eot")
+      format("embedded-opentype"),
+    url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Thin.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Thin.otf")
+      format("opentype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zoho_Puvi_ThinItalic";
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Thin.eot");
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Thin.eot")
+      format("embedded-opentype"),
+    url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Thin.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Thin.otf")
+      format("opentype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zoho_Puvi_Light";
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Light.eot");
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Light.eot")
+      format("embedded-opentype"),
+    url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Light.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Light.otf")
+      format("opentype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zoho_Puvi_LightItalic";
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Light.eot");
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Light.eot")
+      format("embedded-opentype"),
+    url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Light.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Light.otf")
+      format("opentype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zoho_Puvi_ExtraLight";
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extralight.eot");
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extralight.eot")
+      format("embedded-opentype"),
+    url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extralight.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extralight.otf")
+      format("opentype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zoho_Puvi_Regular";
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Regular.eot");
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Regular.eot")
+      format("embedded-opentype"),
+    url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Regular.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Regular.otf")
+      format("opentype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zoho_Puvi_RegularItalic";
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Regular.eot");
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Regular.eot")
+      format("embedded-opentype"),
+    url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Regular.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Regular.otf")
+      format("opentype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: oblique;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zoho_Puvi_Medium";
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Medium.eot");
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Medium.eot")
+      format("embedded-opentype"),
+    url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Medium.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Medium.otf")
+      format("opentype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zoho_Puvi_SemiBold";
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Semibold.eot");
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Semibold.eot")
+      format("embedded-opentype"),
+    url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Semibold.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Semibold.otf")
+      format("opentype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zoho_Puvi_SemiBoldItalic";
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Semibold.eot");
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Semibold.eot")
+      format("embedded-opentype"),
+    url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Semibold.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Semibold.otf")
+      format("opentype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zoho_Puvi_Bold";
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Bold.eot");
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Bold.eot")
+      format("embedded-opentype"),
+    url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Bold.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Bold.otf")
+      format("opentype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zoho_Puvi_BoldItalic";
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Bold.eot");
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Bold.eot")
+      format("embedded-opentype"),
+    url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Bold.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Bold.otf")
+      format("opentype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zoho_Puvi_ExtraBold";
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrabold.eot");
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrabold.eot")
+      format("embedded-opentype"),
+    url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrabold.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrabold.otf")
+      format("opentype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zoho_Puvi_ExtraBoldItalic";
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrablack.eot");
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrablack.eot")
+      format("embedded-opentype"),
+    url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrablack.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrablack.otf")
+      format("opentype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zoho_Puvi_Black";
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Black.eot");
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Black.eot")
+      format("embedded-opentype"),
+    url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Black.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Black.otf")
+      format("opentype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zoho_Puvi_BlackItalic";
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Black.eot");
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Black.eot")
+      format("embedded-opentype"),
+    url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Black.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Black.otf")
+      format("opentype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zoho_Puvi_ExtraBlack";
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrablack.eot");
+  src: url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrablack.eot")
+      format("embedded-opentype"),
+    url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrablack.woff2")
+      format("woff2"),
+    /* Modern Browsers */
+      url("https://static.zohocdn.com/zohofonts/zohopuvi/4.0/Zoho_Puvi_Extrablack.otf")
+      format("opentype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Zoho_Puvi";
+  background-color: #e4e9f4;
+}
+nav {
+  background: #2539aa;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+label.logo {
+  line-height: 80px;
+  padding: 0 100px;
+  padding-top: 10px;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  font-size: 16px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  font-family: "Zoho_Puvi_Medium";
+}
+a.active,
+a:hover {
+  background: #3c61be;
+}
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+
+.dropbtn {
+  background-color: #2539aa;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  font-family: "Zoho_Puvi_Medium";
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3c61be;
+}
+
+.nav-item {
+  font-family: "Zoho_Puvi_Bold";
+  text-transform: uppercase;
+}
+
+@media (max-width: 952px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2539aa;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  a:hover,
+  a.active {
+    background: none;
+    color: #2539aa;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
+.hero-section {
+  background-color: #2539aa;
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: relative;
+  margin-bottom: 20%;
+}
+
+.hero-section div h1 {
+  width: 100%;
+  font-family: "Zoho_Puvi_Extrabold";
+  font-size: 46px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.hero-section-bold {
+  color: #41d385;
+}
+
+.hero-section div p {
+  width: 100%;
+  font-family: "Zoho_Puvi_Regular";
+  font-size: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 16px;
+}
+
+.hero-section div button {
+  font-family: "Zoho_Puvi_Semibold";
+  color: white;
+  font-size: 16px;
+  margin-top: 16px;
+  top: 415px;
+  left: 724px;
+  width: 233px;
+  height: 56px;
+  background: #ea5154 0% 0% no-repeat padding-box;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.bg-images {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  top: 56px; /* Adjust as needed */
+}
+
+.image-one,
+.image-two {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  opacity: 1;
+}
+
+.image-one {
+  width: 741px;
+  height: 525px;
+  background-image: url("./../images/Group 22454.png");
+  background-size: cover;
+}
+
+.image-two {
+  width: 100%;
+  height: 612px;
+  background-image: url("./../images/Group 22221.png");
+}
+
+.bg-images {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  top: 56px; /* Adjust as needed */
+}
+
+@media screen and (max-width: 768px) {
+  .image-one {
+    width: 354px;
+    height: 222px;
+    background-size: cover;
+  }
+}
+
+.companies-section {
+  background: #ffff 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  width: 80%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: black;
+  font-family: "Zoho_Puvi";
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  position: relative;
+  margin-top: 35%;
+  font-size: 20px;
+}
+
+.companies-img {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-items: center;
+}
+
+.about-section {
+  background-color: #e4e9f4;
+  padding-bottom: 30%;
+}
+
+.about-section h1 {
+  text-align: center;
+  color: black;
+  font-family: "Zoho_Puvi_Bold";
+  font-size: 46px;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.about-section-items {
+  display: flex;
+  padding-top: 100px;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  gap: 100px;
+}
+
+.about-section-items div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-section-items-new {
+  align-items: center;
+}
+
+.about-section-items-new div {
+  display: flex;
+  gap: 20px;
+}
+
+.about-section-items div h2 {
+  font-family: "Zoho_Puvi_Bold";
+  font-size: 26px;
+}
+
+.about-section-items div p {
+  font-family: "Zoho_Puvi_Regular";
+  font-size: 20px;
+}
+
+.about-section-items div button {
+  background-color: #2539aa;
+  color: white;
+  padding: 16px;
+  margin-right: 50%;
+  font-size: 16px;
+  border: none;
+  font-family: "Zoho_Puvi_Bold";
+}
+
+.about-section-items div div ul li {
+  font-family: "Zoho_Puvi_Bold";
+  padding-top: 12px;
+}
+
+.about-section-items img {
+  width: 100%;
+}
+
+.link {
+  color: #3c61be;
+  cursor: pointer;
+  font-family: "Zoho_Puvi_Bold";
+  font-size: 16px;
+}
+
+.about-section-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-section-items-other {
+  display: flex;
+  gap: 100px;
+  padding-top: 180px;
+}
+
+.book-section {
+  background: #fff8ea 0px 43px no-repeat padding-box;
+  display: flex;
+  border-radius: 25px;
+  width: 80%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: black;
+  font-family: "Zoho_Puvi";
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: start;
+  position: relative;
+  margin-top: -310px;
+  font-size: 20px;
+  margin-left: 10%;
+}
+
+.final-section {
+  background: #ffffff;
+  padding-bottom: 10%;
+  padding-top: 30%;
+}
+
+.final-section div h1 {
+  font-size: 36px;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+  font-family: "Zoho_Puvi_Bold";
+}
+
+.final-section div p {
+  font-size: 16px;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+  font-family: "Zoho_Puvi_Regular";
+  padding-top: 24px;
+}
+
+.final-section-card div {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.final-section-card div div {
+  display: flex;
+  align-items: center;
+  place-content: center;
+  font-family: "Zoho_Puvi_Semibold";
+  gap: 5px;
+  background: #f7f7f7;
+  width: 20%;
+  padding-top: 10px;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+
+.final-section-demo {
+  background: #2439ab;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  width: 80%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+  font-family: "Zoho_Puvi";
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: start;
+  position: relative;
+  margin-top: 10%;
+  font-size: 20px;
+  margin-left: 10%;
+}
+.final-section-demo div button {
+  font-family: "Zoho_Puvi_Semibold";
+  color: white;
+  font-size: 16px;
+  margin-top: 16px;
+  top: 415px;
+  left: 724px;
+  width: 233px;
+  height: 56px;
+  background: #ea5154 0% 0% no-repeat padding-box;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.book-img img {
+  width: 100%;
+  padding-top: 24px;
+}
+
+.book-section div h1 {
+  font-family: "Zoho_Puvi_Light";
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.book-section div p {
+  font-family: "Zoho_Puvi_Semibold";
+}
+
+.book-section div button {
+  font-family: "Zoho_Puvi_Semibold";
+  color: white;
+  font-size: 16px;
+  margin-top: 16px;
+  top: 415px;
+  left: 724px;
+  width: 233px;
+  height: 56px;
+  background: black;
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media (max-width: 1175px) {
+  .companies-img {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adjusted for smaller screens */
+    align-items: center;
+  }
+
+  .companies-section {
+    font-size: 10px;
+    margin-top: 909px;
+  }
+
+  .hero-section {
+    margin-bottom: 611px;
+  }
+
+  .about-section-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-section-items div button {
+    margin-right: 10%;
+  }
+
+  .about-section h1 {
+    font-size: 36px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .link {
+    font-size: 12px;
+  }
+
+  .about-section-items-other {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 180px;
+  }
+
+  .about-section-images div img {
+    width: 100px;
+    height: 90px;
+  }
+
+  .about-section {
+    padding-bottom: 416px;
+  }
+
+  .book-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: -305px;
+    font-size: 12px;
+    margin-left: 10%;
+  }
+
+  .final-section {
+    padding-top: 488px;
+  }
+
+  .final-section-card div {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .final-section-card div div {
+    width: 25%;
+    text-align: center;
+  }
+
+  .final-section div h1 {
+    font-size: 26px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: start;
+  }
+
+  .hero-section div h1 {
+    width: 100%;
+    font-family: "Zoho_Puvi_Extrabold";
+    font-size: 26px;
+    padding-left: 0;
+    padding-right: 0%;
+  }
+}

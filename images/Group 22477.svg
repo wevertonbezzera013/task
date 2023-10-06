@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61" height="61" viewBox="0 0 61 61">
+  <defs>
+    <filter id="Ellipse_2599" x="0" y="0" width="61" height="61" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.199" y1="0.196" x2="0.808" y2="0.931" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00ba5b"/>
+      <stop offset="1" stop-color="#007439"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_22477" data-name="Group 22477" transform="translate(-719 -4000)">
+    <g transform="matrix(1, 0, 0, 1, 719, 4000)" filter="url(#Ellipse_2599)">
+      <circle id="Ellipse_2599-2" data-name="Ellipse 2599" cx="27.5" cy="27.5" r="27.5" transform="translate(3 1)" fill="#fff"/>
+    </g>
+    <g id="Group_22252" data-name="Group 22252" transform="translate(6.038 -2196.462)">
+      <path id="Icon_awesome-key" data-name="Icon awesome-key" d="M0,7.193A7.2,7.2,0,0,0,8.534,14.26l.981,1.1a.981.981,0,0,0,.733.329H11.77v1.635a.981.981,0,0,0,.981.981h1.635v1.635a.981.981,0,0,0,.981.981h4.577a.981.981,0,0,0,.981-.981v-3.19a.981.981,0,0,0-.287-.694L14.024,9.447A7.193,7.193,0,1,0,0,7.193Z" transform="translate(733 6214)" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_2605" data-name="Ellipse 2605" cx="1.386" cy="1.386" r="1.386" transform="translate(736.697 6217.697)" fill="#fff" opacity="0.5"/>
+    </g>
+  </g>
+</svg>

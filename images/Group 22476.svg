@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61" height="61" viewBox="0 0 61 61">
+  <defs>
+    <filter id="Ellipse_2600" x="0" y="0" width="61" height="61" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.199" y1="0.196" x2="0.808" y2="0.931" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00ba5b"/>
+      <stop offset="1" stop-color="#007439"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_22476" data-name="Group 22476" transform="translate(-982 -4000)">
+    <g transform="matrix(1, 0, 0, 1, 982, 4000)" filter="url(#Ellipse_2600)">
+      <circle id="Ellipse_2600-2" data-name="Ellipse 2600" cx="27.5" cy="27.5" r="27.5" transform="translate(3 1)" fill="#fff"/>
+    </g>
+    <g id="Group_22253" data-name="Group 22253" transform="translate(10.5 -2196.5)">
+      <path id="Icon_awesome-cloud" data-name="Icon awesome-cloud" d="M22.8,10.5A4.076,4.076,0,0,0,19,4.964a4.051,4.051,0,0,0-2.26.687A6.786,6.786,0,0,0,4.071,9.036c0,.115,0,.229.008.344A6.109,6.109,0,0,0,6.107,21.25H21.714A5.428,5.428,0,0,0,22.8,10.5Z" transform="translate(988.429 6212.75)" fill="url(#linear-gradient)"/>
+      <path id="Path_113955" data-name="Path 113955" d="M-1.074,1.279.584,2.98,4.162-.459" transform="translate(1000.419 6224.58)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5" opacity="0.5"/>
+    </g>
+  </g>
+</svg>

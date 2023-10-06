@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61" height="61" viewBox="0 0 61 61">
+  <defs>
+    <filter id="Ellipse_2566" x="0" y="0" width="61" height="61" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.09" y1="0.14" x2="0.718" y2="0.899" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00ba5b"/>
+      <stop offset="1" stop-color="#007439"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_22478" data-name="Group 22478" transform="translate(-437 -3999)">
+    <g transform="matrix(1, 0, 0, 1, 437, 3999)" filter="url(#Ellipse_2566)">
+      <circle id="Ellipse_2566-2" data-name="Ellipse 2566" cx="27.5" cy="27.5" r="27.5" transform="translate(3 1)" fill="#fff"/>
+    </g>
+    <g id="Group_22251" data-name="Group 22251" transform="translate(10 -2199)">
+      <path id="Icon_feather-shield" data-name="Icon feather-shield" d="M17.383,31.457s11.383-5.691,11.383-14.229V7.269L17.383,3,6,7.269v9.96C6,25.766,17.383,31.457,17.383,31.457Z" transform="translate(440.117 6210.051)" fill="url(#linear-gradient)"/>
+      <path id="Path_113953" data-name="Path 113953" d="M-1.074,1.816,1.1,4.043,5.78-.459" transform="translate(455.419 6224.518)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5" opacity="0.5"/>
+    </g>
+  </g>
+</svg>
